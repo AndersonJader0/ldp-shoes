@@ -1,0 +1,107 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    background-image: url(/Landing-page/images/background.png);
+}
+
+header{
+    background-color: #ffffff;
+    padding: 30px;
+    border-bottom: black 1px solid;
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    margin-right: 4.5%;
+    font-size: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(114, 114, 255);
+}
+
+header nav a:hover{
+    color:rgb(52, 52, 255);
+}
+
+.background-principal{
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+}
+
+.principal h1{
+    color:white;
+    font-size: 50px;
+    border-left: 5px solid white;
+    padding-left: 10px;
+}
+
+.principal span{
+    text-decoration: underline;
+}
+
+.principal{
+    padding: 60px 60px 0px 60px;
+}
+
+.value{
+    font-size: 24px;
+}
+
+.principal button{
+    width: 221px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+.principal button:hover{
+    background-color: rgb(226, 226, 255);
+    color: blue;
+    cursor: pointer;
+}
+
+.principal-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 155px;
+}
+
+.sapato{
+    width: 25%;
+    border-radius: 25px;
+    box-shadow: 15px 15px  rgb(226, 226, 255);
+}
+
+.principal-content2{
+    color: white;
+    display: flex;
+    border-top: white solid 1px;
+}
+
+.principal-content2 h2{
+    border-left: 5px solid white;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.principal-content2 p{
+    line-height: 34px;
+}
+
+footer, footer a{
+    margin: 0 2%;
+    color: white;
+    display: visible;
+}
